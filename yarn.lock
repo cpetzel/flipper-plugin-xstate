@@ -4931,7 +4931,7 @@ log-symbols@^4.1.0:
     chalk "^4.1.0"
     is-unicode-supported "^0.1.0"
 
-loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
@@ -6285,14 +6285,6 @@ react-virtual@^2.8.0:
   dependencies:
     "@reach/observe-rect" "^1.1.0"
 
-react@^17.0.2:
-  version "17.0.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
-  integrity sha1-0LXMUW0p6z7uOD91tihkz7aAADc=
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-
 reactcss@^1.2.0:
   version "1.2.3"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/reactcss/-/reactcss-1.2.3.tgz#c00013875e557b1cf0dfd9a368a1c3dab3b548dd"
@@ -7405,6 +7397,11 @@ ws@^7.4.6:
   version "7.5.5"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/ws/-/ws-7.5.5.tgz#8b4bc4af518cfabd0473ae4f99144287b33eb881"
   integrity sha1-i0vEr1GM+r0Ec65PmRRCh7M+uIE=
+
+ws@^8.2.2:
+  version "8.2.2"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/ws/-/ws-8.2.2.tgz#ca684330c6dd6076a737250ed81ac1606cb0a63e"
+  integrity sha1-ymhDMMbdYHanNyUO2BrBYGywpj4=
 
 xml-name-validator@^3.0.0:
   version "3.0.0"
