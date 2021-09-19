@@ -2,19 +2,27 @@
   "$schema": "https://fbflipper.com/schemas/plugin-package/v2.json",
   "name": "flipper-plugin-xstate",
   "id": "xstate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "pluginType": "client",
   "main": "dist/bundle.js",
   "flipperBundlerEntry": "src/index.tsx",
   "license": "MIT",
+  "author": {
+    "name": "Craig Petzel"
+  },
   "keywords": [
-    "flipper-plugin"
+    "flipper-plugin",
+    "react-native",
+    "xstate"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpetzel/flipper-plugin-xstate.git"
+  },
   "icon": "rocket",
   "title": "XState",
   "scripts": {
     "lint": "flipper-pkg lint",
-    "prepack": "flipper-pkg lint && flipper-pkg bundle",
     "build": "flipper-pkg bundle",
     "watch": "flipper-pkg bundle --watch",
     "test": "jest --no-watchman"
@@ -31,7 +39,7 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "antd": "latest",
-    "flipper-pkg": "latest",
+    "flipper-pkg": "^0.110.0",
     "flipper-plugin": "latest",
     "jest": "latest",
     "typescript": "latest"

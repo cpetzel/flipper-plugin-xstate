@@ -173,7 +173,7 @@
     semver "^6.3.0"
     source-map "^0.5.0"
 
-"@babel/generator@^7.14.0", "@babel/generator@^7.14.9", "@babel/generator@^7.15.4", "@babel/generator@^7.7.2":
+"@babel/generator@^7.14.0", "@babel/generator@^7.15.4", "@babel/generator@^7.7.2":
   version "7.15.4"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@babel/generator/-/generator-7.15.4.tgz#85acb159a267ca6324f9793986991ee2022a05b0"
   integrity sha1-hayxWaJnymMk+Xk5hpke4gIqBbA=
@@ -1010,10 +1010,10 @@
     "@babel/helper-create-regexp-features-plugin" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/preset-env@^7.15.0":
+"@babel/preset-env@^7.15.4":
   version "7.15.6"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@babel/preset-env/-/preset-env-7.15.6.tgz#0f3898db9d63d320f21b17380d8462779de57659"
-  integrity sha1-DziY251j0yDyGxc4DYRid53ldlk=
+  resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.15.6.tgz#0f3898db9d63d320f21b17380d8462779de57659"
+  integrity sha512-L+6jcGn7EWu7zqaO2uoTDjjMBW+88FXzV8KvrBl2z6MtRNxlsmUNRlZPaNNPUTgqhyC5DHNFk/2Jmra+ublZWw==
   dependencies:
     "@babel/compat-data" "^7.15.0"
     "@babel/helper-compilation-targets" "^7.15.4"
@@ -1688,21 +1688,14 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/debug@^4.1.5":
+"@types/debug@^4.1.7":
   version "4.1.7"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@types/debug/-/debug-4.1.7.tgz#7cc0ea761509124709b8b2d1090d8f6c17aadb82"
-  integrity sha1-fMDqdhUJEkcJuLLRCQ2PbBeq24I=
+  resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.7.tgz#7cc0ea761509124709b8b2d1090d8f6c17aadb82"
+  integrity sha512-9AonUzyTjXXhEOa0DnqpzZi6VHlqKMswga9EXjpXnnqxwLtdvPPtlO8evrI5D9S6asFRCQ6v+wpiUKbw+vKqyg==
   dependencies:
     "@types/ms" "*"
 
-"@types/fs-extra@^8.1.0":
-  version "8.1.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@types/fs-extra/-/fs-extra-8.1.2.tgz#7125cc2e4bdd9bd2fc83005ffdb1d0ba00cca61f"
-  integrity sha1-cSXMLkvdm9L8gwBf/bHQugDMph8=
-  dependencies:
-    "@types/node" "*"
-
-"@types/fs-extra@^9.0.11":
+"@types/fs-extra@^9.0.11", "@types/fs-extra@^9.0.12":
   version "9.0.12"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@types/fs-extra/-/fs-extra-9.0.12.tgz#9b8f27973df8a7a3920e8461517ebf8a7d4fdfaf"
   integrity sha1-m48nlz34p6OSDoRhUX6/in1P368=
@@ -1743,10 +1736,10 @@
     jest-diff "^27.0.0"
     pretty-format "^27.0.0"
 
-"@types/lockfile@^1.0.1":
+"@types/lockfile@^1.0.2":
   version "1.0.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@types/lockfile/-/lockfile-1.0.2.tgz#3f77e84171a2b7e3198bd5717c7547a54393baf8"
-  integrity sha1-P3foQXGit+MZi9VxfHVHpUOTuvg=
+  resolved "https://registry.yarnpkg.com/@types/lockfile/-/lockfile-1.0.2.tgz#3f77e84171a2b7e3198bd5717c7547a54393baf8"
+  integrity sha512-jD5VbvhfMhaYN4M3qPJuhMVUg3Dfc4tvPvLEAXn6GXbs/ajDFtCQahX37GIE65ipTI3I+hEvNaXS3MYAn9Ce3Q==
 
 "@types/minipass@*":
   version "3.1.0"
@@ -1760,10 +1753,10 @@
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@types/ms/-/ms-0.7.31.tgz#31b7ca6407128a3d2bbc27fe2d21b345397f6197"
   integrity sha1-MbfKZAcSij0rvCf+LSGzRTl/YZc=
 
-"@types/node-fetch@^2.5.6":
+"@types/node-fetch@^2.5.12":
   version "2.5.12"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@types/node-fetch/-/node-fetch-2.5.12.tgz#8a6f779b1d4e60b7a57fb6fd48d84fb545b9cc66"
-  integrity sha1-im93mx1OYLelf7b9SNhPtUW5zGY=
+  resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.5.12.tgz#8a6f779b1d4e60b7a57fb6fd48d84fb545b9cc66"
+  integrity sha512-MKgC4dlq4kKNa/mYrwpKfzQMB5X3ee5U6fSprkKpToBqBmX4nFZL9cW5jl6sWn+xpRJ7ypWh2yyqqr8UUCstSw==
   dependencies:
     "@types/node" "*"
     form-data "^3.0.0"
@@ -1809,28 +1802,28 @@
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha1-GmL4lSVyPd4kuhsBsJK/XfitTTk=
 
-"@types/semver@^7.1.0":
+"@types/semver@^7.3.8":
   version "7.3.8"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@types/semver/-/semver-7.3.8.tgz#508a27995498d7586dcecd77c25e289bfaf90c59"
-  integrity sha1-UIonmVSY11htzs13wl4om/r5DFk=
+  resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.3.8.tgz#508a27995498d7586dcecd77c25e289bfaf90c59"
+  integrity sha512-D/2EJvAlCEtYFEYmmlGwbGXuK886HzyCc3nZX/tkFTQdEU8jZDAgiv08P162yB17y4ZXZoq7yFAnW4GDBb9Now==
 
 "@types/stack-utils@^2.0.0":
   version "2.0.1"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@types/stack-utils/-/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
   integrity sha1-IPGClPeX8iCbX2XI47XI6CYdEnw=
 
-"@types/tar@^4.0.3":
+"@types/tar@^4.0.5":
   version "4.0.5"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@types/tar/-/tar-4.0.5.tgz#5f953f183e36a15c6ce3f336568f6051b7b183f3"
-  integrity sha1-X5U/GD42oVxs4/M2Vo9gUbexg/M=
+  resolved "https://registry.yarnpkg.com/@types/tar/-/tar-4.0.5.tgz#5f953f183e36a15c6ce3f336568f6051b7b183f3"
+  integrity sha512-cgwPhNEabHaZcYIy5xeMtux2EmYBitfqEceBUi2t5+ETy4dW6kswt6WX4+HqLeiiKOo42EXbGiDmVJ2x+vi37Q==
   dependencies:
     "@types/minipass" "*"
     "@types/node" "*"
 
-"@types/url-join@4.0.0":
-  version "4.0.0"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@types/url-join/-/url-join-4.0.0.tgz#72eff71648a429c7d4acf94e03780e06671369bd"
-  integrity sha1-cu/3FkikKcfUrPlOA3gOBmcTab0=
+"@types/url-join@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/url-join/-/url-join-4.0.1.tgz#4989c97f969464647a8586c7252d97b449cdc045"
+  integrity sha512-wDXw9LEEUHyV+7UWy7U315nrJGJ7p1BzaCxDpEoLr789Dk1WDVMMlf3iBfbG2F8NdWnYyFbtTxUn2ZNbm1Q4LQ==
 
 "@types/uuid@^8.3.1":
   version "8.3.1"
@@ -2130,11 +2123,6 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
-
-at-least-node@^1.0.0:
-  version "1.0.0"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
-  integrity sha1-YCzUtG6EStTv/JKoARo8RuAjjcI=
 
 atob@^2.1.2:
   version "2.1.2"
@@ -2887,7 +2875,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@4, debug@^4.1.0, debug@^4.1.1:
+debug@4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.2:
   version "4.3.2"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
   integrity sha1-8KScGKyHeeMdSgxgKd+3aHPHQos=
@@ -3405,13 +3393,13 @@ find-up@^4.0.0, find-up@^4.1.0:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
 
-flipper-babel-transformer@0.107.0:
-  version "0.107.0"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/flipper-babel-transformer/-/flipper-babel-transformer-0.107.0.tgz#8c8ce31c4334717d7421812f76170124df0b7643"
-  integrity sha1-jIzjHEM0cX10IYEvdhcBJN8LdkM=
+flipper-babel-transformer@0.110.0:
+  version "0.110.0"
+  resolved "https://registry.yarnpkg.com/flipper-babel-transformer/-/flipper-babel-transformer-0.110.0.tgz#cb8dd9b77546e64c147f0a8e0c5de446cca69e71"
+  integrity sha512-74yhgaLptKtFW/3VomVKFv89HdfVrl20ZZvV/noCKlGueRvbfEjF50CVvsmfGpQDY5QYdX+NgBVl+5oDbDgWKA==
   dependencies:
     "@babel/core" "^7.14.6"
-    "@babel/generator" "^7.14.9"
+    "@babel/generator" "^7.15.4"
     "@babel/parser" "^7.15.3"
     "@babel/plugin-proposal-class-properties" "^7.14.5"
     "@babel/plugin-proposal-nullish-coalescing-operator" "^7.14.5"
@@ -3420,7 +3408,7 @@ flipper-babel-transformer@0.107.0:
     "@babel/plugin-transform-flow-strip-types" "^7.14.5"
     "@babel/plugin-transform-modules-commonjs" "^7.15.0"
     "@babel/plugin-transform-typescript" "^7.14.6"
-    "@babel/preset-env" "^7.15.0"
+    "@babel/preset-env" "^7.15.4"
     "@babel/preset-react" "^7.14.5"
     "@babel/traverse" "^7.14.9"
     "@babel/types" "^7.14.9"
@@ -3430,23 +3418,23 @@ flipper-babel-transformer@0.107.0:
     fs-extra "^10.0.0"
     tslib "^2.3.1"
 
-flipper-pkg-lib@0.107.0:
-  version "0.107.0"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/flipper-pkg-lib/-/flipper-pkg-lib-0.107.0.tgz#12ab9c3e9363d2dbe45b51a5e37241a187b7d0bc"
-  integrity sha1-EqucPpNj0tvkW1Gl43JBoYe30Lw=
+flipper-pkg-lib@0.110.0:
+  version "0.110.0"
+  resolved "https://registry.yarnpkg.com/flipper-pkg-lib/-/flipper-pkg-lib-0.110.0.tgz#0cf766bfdd419f84c84cae24e444e8fd22a1d4cb"
+  integrity sha512-WECfeWyV7+pJglwGA7IMMqWzgRoIwKYWEKZrg862LN7yjPt1n7Ftn4/I/jkTG2wbM/sh6VkWcus4vVwohmArhQ==
   dependencies:
-    flipper-babel-transformer "0.107.0"
-    flipper-plugin-lib "0.107.0"
+    flipper-babel-transformer "0.110.0"
+    flipper-plugin-lib "0.110.0"
     fs-extra "^10.0.0"
     metro "^0.66.2"
     metro-cache "^0.66.2"
     metro-minify-terser "^0.66.2"
     npm-packlist "^3.0.0"
 
-flipper-pkg@latest:
-  version "0.107.0"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/flipper-pkg/-/flipper-pkg-0.107.0.tgz#3aa7b284ee2cba9485a28488cbef741dd143e709"
-  integrity sha1-OqeyhO4supSFooSIy+90HdFD5wk=
+flipper-pkg@^0.110.0:
+  version "0.110.0"
+  resolved "https://registry.yarnpkg.com/flipper-pkg/-/flipper-pkg-0.110.0.tgz#cb43e51bf2f132da117e1ab76939037f0a6410f5"
+  integrity sha512-QdGfGWV/4QLyDrdrSnqrO7PUa80m9ACPW1cauOPx9QVY3dxnsEKaoPbNFnYHB2VVDjY5A2FoE2TWJn3mOqCzaw==
   dependencies:
     "@oclif/command" "^1"
     "@oclif/config" "^1"
@@ -3456,17 +3444,17 @@ flipper-pkg@latest:
     ajv "^6.12.2"
     ajv-errors "^1.0.1"
     cli-ux "^5.6.3"
-    flipper-pkg-lib "0.107.0"
-    flipper-plugin-lib "0.107.0"
+    flipper-pkg-lib "0.110.0"
+    flipper-plugin-lib "0.110.0"
     fs-extra "^10.0.0"
     inquirer "^8.1.2"
     lodash "^4.17.21"
     recursive-readdir "^2.2.2"
 
-flipper-plugin-lib@0.107.0:
-  version "0.107.0"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/flipper-plugin-lib/-/flipper-plugin-lib-0.107.0.tgz#9b2fb2290d204b11752e6582c2bb75ba3db65898"
-  integrity sha1-my+yKQ0gSxF1LmWCwrt1uj22WJg=
+flipper-plugin-lib@0.110.0:
+  version "0.110.0"
+  resolved "https://registry.yarnpkg.com/flipper-plugin-lib/-/flipper-plugin-lib-0.110.0.tgz#4c1bf582c4ae6c97237b32fab0028f10803ede31"
+  integrity sha512-9/Ix+0+vpmuy0Pt2lm3dhkiKOdIqR0fIAR6bKocg3PqpDOogu9QzL/59ivFkPk4kv/ZGtBI3Axec9GFfhRmiJw==
   dependencies:
     algoliasearch "^4.10.5"
     decompress "^4.2.1"
@@ -3474,7 +3462,7 @@ flipper-plugin-lib@0.107.0:
     decompress-unzip "^4.0.1"
     expand-tilde "^2.0.2"
     fs-extra "^10.0.0"
-    live-plugin-manager "^0.15.1"
+    live-plugin-manager "^0.16.0"
     npm-api "^1.0.1"
     p-filter "^2.1.0"
     p-map "^4.0.0"
@@ -3565,16 +3553,6 @@ fs-extra@^8.1:
     graceful-fs "^4.2.0"
     jsonfile "^4.0.0"
     universalify "^0.1.0"
-
-fs-extra@^9.0.0:
-  version "9.1.0"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/fs-extra/-/fs-extra-9.1.0.tgz#5954460c764a8da2094ba3554bf839e6b9a7c86d"
-  integrity sha1-WVRGDHZKjaIJS6NVS/g55rmnyG0=
-  dependencies:
-    at-least-node "^1.0.0"
-    graceful-fs "^4.2.0"
-    jsonfile "^6.0.1"
-    universalify "^2.0.0"
 
 fs-minipass@^2.0.0:
   version "2.1.0"
@@ -4841,24 +4819,24 @@ lines-and-columns@^1.1.6:
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-live-plugin-manager@^0.15.1:
-  version "0.15.1"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/live-plugin-manager/-/live-plugin-manager-0.15.1.tgz#d268dd976e93d1ee0516dd90cc30999ec0d8ed35"
-  integrity sha1-0mjdl26T0e4FFt2QzDCZnsDY7TU=
+live-plugin-manager@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/live-plugin-manager/-/live-plugin-manager-0.16.0.tgz#7cf11472065eda8159e72b98960bc29c609c63ce"
+  integrity sha512-5SBjoKFShEOmp+hi67ksbpM7KHyhY4T6VftNSLy6jjbykArCE1DWRPWfpTLG5u+L/m4l/x/CpVcFH1jzbHWkNA==
   dependencies:
-    "@types/debug" "^4.1.5"
-    "@types/fs-extra" "^8.1.0"
-    "@types/lockfile" "^1.0.1"
-    "@types/node-fetch" "^2.5.6"
-    "@types/semver" "^7.1.0"
-    "@types/tar" "^4.0.3"
-    "@types/url-join" "4.0.0"
-    debug "^4.1.1"
-    fs-extra "^9.0.0"
+    "@types/debug" "^4.1.7"
+    "@types/fs-extra" "^9.0.12"
+    "@types/lockfile" "^1.0.2"
+    "@types/node-fetch" "^2.5.12"
+    "@types/semver" "^7.3.8"
+    "@types/tar" "^4.0.5"
+    "@types/url-join" "4.0.1"
+    debug "^4.3.2"
+    fs-extra "^10.0.0"
     lockfile "^1.0.4"
-    node-fetch "^2.6.0"
-    semver "^7.3.2"
-    tar "^6.0.1"
+    node-fetch "^2.6.1"
+    semver "^7.3.5"
+    tar "^6.1.10"
     url-join "^4.0.1"
 
 locate-path@^3.0.0:
@@ -5414,7 +5392,7 @@ nice-try@^1.0.4:
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha1-ozeKdpbOfSI+iPybdkvX7xCJ42Y=
 
-node-fetch@^2.2.0, node-fetch@^2.6.0:
+node-fetch@^2.2.0, node-fetch@^2.6.0, node-fetch@^2.6.1:
   version "2.6.2"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/node-fetch/-/node-fetch-2.6.2.tgz#986996818b73785e47b1965cc34eb093a1d464d0"
   integrity sha1-mGmWgYtzeF5HsZZcw06wk6HUZNA=
@@ -6911,10 +6889,10 @@ tar-stream@^1.5.2:
     to-buffer "^1.1.1"
     xtend "^4.0.0"
 
-tar@^6.0.1:
+tar@^6.1.10:
   version "6.1.11"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/tar/-/tar-6.1.11.tgz#6760a38f003afa1b2ffd0ffe9e9abbd0eab3d621"
-  integrity sha1-Z2CjjwA6+hsv/Q/+npq70Oqz1iE=
+  resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.11.tgz#6760a38f003afa1b2ffd0ffe9e9abbd0eab3d621"
+  integrity sha512-an/KZQzQUkZCkuoAA64hM92X0Urb6VpRhAFllDzz44U2mcD5scmT3zBc4VgVpkugF580+DQn8eAFSyoQt0tznA==
   dependencies:
     chownr "^2.0.0"
     fs-minipass "^2.0.0"
