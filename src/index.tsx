@@ -1,7 +1,4 @@
-import {
-  PluginClient,
-  Layout,
-} from "flipper-plugin";
+import { PluginClient, Layout } from "flipper-plugin";
 import { WebSocket } from "ws";
 
 type Events = {
@@ -27,7 +24,11 @@ export function plugin(client: PluginClient<Events, Methods>) {
         "Got a start message from RN app. Need to start the inspector"
       );
       try {
-        client.send("message", { type: "xstate.inspecting" });
+        if (client.isConnected) {
+          client.send("message", { type: "xstate.inspecting" });
+        } else {
+          console.log("Not sending start event because we are not connected");
+        }
       } catch (e) {
         console.error("Failed to start the inspector: ", e);
       }
@@ -41,10 +42,12 @@ export function plugin(client: PluginClient<Events, Methods>) {
     });
 
     ws.on("message", (data) => {
-      try {
+      if (client.isConnected) {
         client.send("message", JSON.parse(data));
-      } catch (e) {
-        console.error("Failed to start the inspector: ", e);
+      } else {
+        console.log(
+          "Not sending event from inspector because we are not connected"
+        );
       }
     });
   });
@@ -54,6 +57,12 @@ export function plugin(client: PluginClient<Events, Methods>) {
   client.onConnect(async () => {
     console.log("Client connected.");
   });
+
+  client.onDisconnect(() => {
+    console.log("Client disconnected. closing the websocket server");
+    wss.close();
+  });
+
   return {};
 }
 

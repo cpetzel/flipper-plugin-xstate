@@ -2,13 +2,14 @@
   "$schema": "https://fbflipper.com/schemas/plugin-package/v2.json",
   "name": "flipper-plugin-xstate",
   "id": "xstate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "pluginType": "client",
   "main": "dist/bundle.js",
   "flipperBundlerEntry": "src/index.tsx",
   "license": "MIT",
   "author": {
-    "name": "Craig Petzel"
+    "name": "Craig Petzel",
+    "url": "https://github.com/cpetzel"
   },
   "keywords": [
     "flipper-plugin",
