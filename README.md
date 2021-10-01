@@ -4,12 +4,15 @@ This plugin allows you to display an [XState Inspector](https://statecharts.io/i
 
 You must also use the [react-native-flipper-xstate](https://github.com/cpetzel/react-native-flipper-xstate) package for this to function.
 
+![Xstate Viz](static/xstate-viz-rn.gif?raw=true "Xstate Viz")
+
+
 # Usage
 ### Install the Flipper plugin. 
 
-Until [this issue](https://github.com/algolia/npm-search/issues/726) is resolved, you must install the plugin manually by downloading the [tar.gz file directly from npm](https://registry.npmjs.org/flipper-plugin-xstate/-/flipper-plugin-xstate-1.0.4.tgz) and install from file. 
-(You can navigate to the [package info url](http://registry.npmjs.org/flipper-plugin-xstate/1.0.4) and find the tarball url)
+Simply search for 'xstate' in the `Plugin Manager` in Flipper.
+![image](https://user-images.githubusercontent.com/2036206/135663275-b292d581-641e-4e59-92d8-4f09d97b2058.png)
 
-![Xstate Viz](static/xstate-viz-rn.gif?raw=true "Xstate Viz")
+
 
 
